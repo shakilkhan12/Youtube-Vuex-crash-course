@@ -1,8 +1,9 @@
 import { createStore } from "vuex";
-
+import Names from "./modules/Names"
+import About from "./modules/About"
 export default createStore({
-  state: {},
-  mutations: {},
-  actions: {},
-  modules: {}
+  modules: {
+    Names,
+    About
+  }
 });
